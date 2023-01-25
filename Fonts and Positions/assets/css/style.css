@@ -1,0 +1,80 @@
+@import url(../css/fonts.css);
+
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+div span {
+    font-family: BlinkerExtraBold;
+    color: red;
+}
+
+.first-box {
+    font-family: BlinkerExtraBold;
+    font-size: 30px;
+    max-width: 300px;
+    max-height: 300px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /*position */
+    position: fixed;
+    /*position */
+    border-width: 5px;
+    border-color: rgb(88, 121, 4);
+    border-image: initial;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+.second-box {
+    font-family: BlinkerBold;
+    font-size: 25px;
+    max-width: 300px;
+    max-height: 300px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /*position */
+    position: absolute;
+    /*position */
+    border-width: 5px;
+    border-color: rgb(9, 186, 186);
+    border-image: initial;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+.third-box {
+    font-family: BlinkerLight;
+    font-size: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /*position */
+    position: relative;
+    /*position */
+    border-width: 5px;
+    border-color: rgb(7, 9, 155);
+    border-image: initial;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+.fourth-box{
+    font-family: BlinkerThin;
+    font-size: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /*position */
+    position: relative;
+    /*position */
+    border-width: 5px;
+    border-color: rgb(138, 32, 104);
+    border-image: initial;
+    border-style: solid;
+    border-radius: 5%;
+}
