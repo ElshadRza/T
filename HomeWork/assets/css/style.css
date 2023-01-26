@@ -1,0 +1,49 @@
+@import url(../css/fonts.css);
+@import url(../css/style.css);
+@import url(../css/final.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div span{
+    display: block;
+    font-family: BlinkerExtraBold;
+}
+
+.programming-box p {
+    font-family: BlinkerBold;
+    font-size: 30px;
+    position: absolute;
+    width: 10%;
+    bottom: 5%;
+    left: 5%;
+}
+
+.programming-box img{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.programming-box {
+    background-color: rgb(252, 252, 252);
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 40%;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+
+}
+
+.programming-box:hover{
+    width: 25%;
+    height: 30%;
+    background-color: rgb(23, 149, 216);
+    color: white;
+}
+

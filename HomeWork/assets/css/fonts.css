@@ -1,0 +1,19 @@
+@font-face {
+    font-family: BlinkerExtraBold;
+    src: url(../fonts/Blinker/Blinker-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: BlinkerBold;
+    src: url(../fonts/Blinker/Blinker-Bold.ttf);
+}
+
+@font-face {
+    font-family: BlinkerLight;
+    src: url(../fonts/Blinker/Blinker-Light.ttf);
+}
+
+@font-face {
+    font-family: BlinkerThin;
+    src: url(../fonts/Blinker/Blinker-Thin.ttf);
+}
