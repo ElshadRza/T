@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+  }
+
+.bg {
+    background-image: url(../img/WallpaperDog-10981988.jpg);
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.sun img{
+  width: 200px;
+}
+.sun{
+  position: absolute;
+  z-index: 100;
+}
+
+@keyframes example {
+    0%   {left:1000px;}
+    25%  {r:1000px; top:0px; size:0px;}
+    50%  {left:0px; top:0px; size:0px;}
+    75%  {left:0px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
+
+
+  .moon{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite  ;
+  }
+
+.moon img{ 
+width: 100px;
+}
