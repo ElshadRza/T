@@ -1,0 +1,46 @@
+.wrapper-1 {
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+
+.project-info{
+    width: 40%;
+    margin-left: 40px ;
+    font-family: Bold;
+}
+.project-info p{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    font-family: Light;
+}
+
+.project-info a{
+    text-decoration: none;
+    color: #000;
+}
+
+.col-6 img{
+    width: 200px;
+    height: 200px;
+}
+
+.col-6{
+    margin-bottom: 20px;
+    width: 50%;
+    display: flex;
+}
+

@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 300px;
+}
+
+.wrapper{
+    width: 50%;
+    height: 50%;
+    font-family: Light;
+}
+
+.why-code-question span {
+display: block;
+font-family: Bold;
+}
+.why-code-question{
+    font-size: 30px;
+    line-height: 1.1;
+}
+.why-code-text{
+    width: 85%;
+}
+.wrapper img{
+ margin: 30px 0;
+}
+
